@@ -1,0 +1,109 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 6, Errors: 0, Skipped: 3, Time elapsed: 18.446 s <<< FAILURE! - in TestSuite
+login(testcases.LoginPageTests)  Time elapsed: 13.671 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 101
+Current browser version is 103.0.5060.53 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BR3APVB', ip: '192.168.29.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0100B8F3+2406643]
+	Ordinal0 [0x00F9AF31+1945393]
+	Ordinal0 [0x00E8C748+837448]
+	Ordinal0 [0x00EAC8B3+968883]
+	Ordinal0 [0x00EA84BA+951482]
+	Ordinal0 [0x00EA5D71+941425]
+	Ordinal0 [0x00ED8EE0+1150688]
+	Ordinal0 [0x00ED8B3A+1149754]
+	Ordinal0 [0x00ED4096+1130646]
+	Ordinal0 [0x00EAE636+976438]
+	Ordinal0 [0x00EAF546+980294]
+	GetHandleVerifier [0x01279612+2498066]
+	GetHandleVerifier [0x0126C920+2445600]
+	GetHandleVerifier [0x010A4F2A+579370]
+	GetHandleVerifier [0x010A3D36+574774]
+	Ordinal0 [0x00FA1C0B+1973259]
+	Ordinal0 [0x00FA6688+1992328]
+	Ordinal0 [0x00FA6775+1992565]
+	Ordinal0 [0x00FAF8D1+2029777]
+	BaseThreadInitThunk [0x75DFFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x773E7A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x773E7A4E+238]
+
+
+logout(testcases.LoginPageTests)  Time elapsed: 13.675 s  <<< FAILURE!
+java.lang.NullPointerException
+
+login(testcases.DashboardPageTests)  Time elapsed: 15.738 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 101
+Current browser version is 103.0.5060.53 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BR3APVB', ip: '192.168.29.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0100B8F3+2406643]
+	Ordinal0 [0x00F9AF31+1945393]
+	Ordinal0 [0x00E8C748+837448]
+	Ordinal0 [0x00EAC8B3+968883]
+	Ordinal0 [0x00EA84BA+951482]
+	Ordinal0 [0x00EA5D71+941425]
+	Ordinal0 [0x00ED8EE0+1150688]
+	Ordinal0 [0x00ED8B3A+1149754]
+	Ordinal0 [0x00ED4096+1130646]
+	Ordinal0 [0x00EAE636+976438]
+	Ordinal0 [0x00EAF546+980294]
+	GetHandleVerifier [0x01279612+2498066]
+	GetHandleVerifier [0x0126C920+2445600]
+	GetHandleVerifier [0x010A4F2A+579370]
+	GetHandleVerifier [0x010A3D36+574774]
+	Ordinal0 [0x00FA1C0B+1973259]
+	Ordinal0 [0x00FA6688+1992328]
+	Ordinal0 [0x00FA6775+1992565]
+	Ordinal0 [0x00FAF8D1+2029777]
+	BaseThreadInitThunk [0x75DFFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x773E7A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x773E7A4E+238]
+
+
+logout(testcases.DashboardPageTests)  Time elapsed: 15.741 s  <<< FAILURE!
+java.lang.NullPointerException
+
+login(testcases.DashboardPageTests)  Time elapsed: 17.995 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 101
+Current browser version is 103.0.5060.53 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BR3APVB', ip: '192.168.29.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0100B8F3+2406643]
+	Ordinal0 [0x00F9AF31+1945393]
+	Ordinal0 [0x00E8C748+837448]
+	Ordinal0 [0x00EAC8B3+968883]
+	Ordinal0 [0x00EA84BA+951482]
+	Ordinal0 [0x00EA5D71+941425]
+	Ordinal0 [0x00ED8EE0+1150688]
+	Ordinal0 [0x00ED8B3A+1149754]
+	Ordinal0 [0x00ED4096+1130646]
+	Ordinal0 [0x00EAE636+976438]
+	Ordinal0 [0x00EAF546+980294]
+	GetHandleVerifier [0x01279612+2498066]
+	GetHandleVerifier [0x0126C920+2445600]
+	GetHandleVerifier [0x010A4F2A+579370]
+	GetHandleVerifier [0x010A3D36+574774]
+	Ordinal0 [0x00FA1C0B+1973259]
+	Ordinal0 [0x00FA6688+1992328]
+	Ordinal0 [0x00FA6775+1992565]
+	Ordinal0 [0x00FAF8D1+2029777]
+	BaseThreadInitThunk [0x75DFFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x773E7A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x773E7A4E+238]
+
+
+logout(testcases.DashboardPageTests)  Time elapsed: 17.996 s  <<< FAILURE!
+java.lang.NullPointerException
+

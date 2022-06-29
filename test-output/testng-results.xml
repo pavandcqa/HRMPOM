@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-22T04:15:14Z" name="Suite" finished-at="2022-06-22T04:16:01Z" duration-ms="47123">
+    <groups>
+      <group name="smoke">
+        <method signature="DashboardPageTests.verifyAssignLeave()[pri:0, instance:testcases.DashboardPageTests@341814d3]" name="verifyAssignLeave" class="testcases.DashboardPageTests"/>
+        <method signature="DashboardPageTests.verifyLeaveList()[pri:0, instance:testcases.DashboardPageTests@341814d3]" name="verifyLeaveList" class="testcases.DashboardPageTests"/>
+        <method signature="LoginPageTests.Admin_Login_VerifyLoginWithValidCredentials()[pri:0, instance:testcases.LoginPageTests@3d246ea3]" name="Admin_Login_VerifyLoginWithValidCredentials" class="testcases.LoginPageTests"/>
+      </group> <!-- smoke -->
+      <group name="dashboard">
+        <method signature="DashboardPageTests.verifyAssignLeave()[pri:0, instance:testcases.DashboardPageTests@341814d3]" name="verifyAssignLeave" class="testcases.DashboardPageTests"/>
+        <method signature="DashboardPageTests.verifyLeaveList()[pri:0, instance:testcases.DashboardPageTests@341814d3]" name="verifyLeaveList" class="testcases.DashboardPageTests"/>
+      </group> <!-- dashboard -->
+    </groups>
+    <test started-at="2022-06-22T04:15:14Z" name="Test" finished-at="2022-06-22T04:16:01Z" duration-ms="47123">
+      <class name="testcases.DashboardPageTests">
+        <test-method is-config="true" signature="login(java.lang.String)[pri:0, instance:testcases.DashboardPageTests@341814d3]" started-at="2022-06-22T04:15:30Z" name="login" finished-at="2022-06-22T04:15:42Z" duration-ms="11639" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifyAssignLeave()[pri:0, instance:testcases.DashboardPageTests@341814d3]" started-at="2022-06-22T04:15:42Z" name="verifyAssignLeave" finished-at="2022-06-22T04:15:42Z" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAssignLeave -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testcases.DashboardPageTests@341814d3]" started-at="2022-06-22T04:15:42Z" name="logout" finished-at="2022-06-22T04:15:44Z" duration-ms="1540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login(java.lang.String)[pri:0, instance:testcases.DashboardPageTests@341814d3]" started-at="2022-06-22T04:15:44Z" name="login" finished-at="2022-06-22T04:15:54Z" duration-ms="10901" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifyLeaveList()[pri:0, instance:testcases.DashboardPageTests@341814d3]" started-at="2022-06-22T04:15:54Z" name="verifyLeaveList" finished-at="2022-06-22T04:15:56Z" duration-ms="1433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeaveList -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testcases.DashboardPageTests@341814d3]" started-at="2022-06-22T04:15:56Z" name="logout" finished-at="2022-06-22T04:16:01Z" duration-ms="5514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- testcases.DashboardPageTests -->
+      <class name="testcases.LoginPageTests">
+        <test-method is-config="true" signature="login(java.lang.String)[pri:0, instance:testcases.LoginPageTests@3d246ea3]" started-at="2022-06-22T04:15:14Z" name="login" finished-at="2022-06-22T04:15:28Z" duration-ms="13308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="Admin_Login_VerifyLoginWithValidCredentials()[pri:0, instance:testcases.LoginPageTests@3d246ea3]" started-at="2022-06-22T04:15:28Z" name="Admin_Login_VerifyLoginWithValidCredentials" finished-at="2022-06-22T04:15:28Z" duration-ms="74" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at testcases.LoginPageTests.Admin_Login_VerifyLoginWithValidCredentials(LoginPageTests.java:14)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Admin_Login_VerifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testcases.LoginPageTests@3d246ea3]" started-at="2022-06-22T04:15:28Z" name="logout" finished-at="2022-06-22T04:15:30Z" duration-ms="2180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- testcases.LoginPageTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="listeners.TestNGListener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testcases.DashboardPageTests">
+        <methods>
+          <include name="verifyAssignLeave"/>
+          <include name="verifyLeaveList"/>
+          <include name="logout"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testcases.DashboardPageTests -->
+      <class name="testcases.LoginPageTests">
+        <methods>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="Admin_Login_VerifyLoginWithValidCredentials"/>
+        </methods>
+      </class> <!-- testcases.LoginPageTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
